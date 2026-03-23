@@ -231,7 +231,8 @@ All screenshots and documentation are organized in the project folders.
 
 ---
 
-## 📞 Contact  
-**Jose Solórzano**  
-Aspiring IT & Cybersecurity Professional  
+## 📨 Contact
 
+**Jose Solorzano**  
+IT Support & Cybersecurity Professional  
+*www.linkedin.com/in/jose-solorzano-b9bb853a1*
