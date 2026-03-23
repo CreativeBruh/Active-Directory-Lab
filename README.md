@@ -5,6 +5,31 @@ A hands‑on Active Directory lab demonstrating domain setup, OU design, user/gr
 This project simulates a realistic enterprise Active Directory environment.  
 It includes domain creation, organizational structure, user and group management, delegated permissions, Group Policy configuration, and least‑privilege RBAC testing.
 
+## 🧰 Tools Used
+
+### Virtualization & Environment
+- **VirtualBox** – Virtualization platform for hosting the lab environment  
+- **Windows Server 2022** – Domain Controller and AD DS host  
+- **Windows 10** – Domain‑joined client workstation  
+
+### Active Directory & Management
+- **Active Directory Domain Services (AD DS)**  
+- **Active Directory Users and Computers (ADUC)**  
+- **Group Policy Management Console (GPMC)**  
+- **DNS Manager**  
+- **Local Users and Groups** (client-side validation)
+
+### Networking & System Configuration
+- **Static IPv4 configuration**  
+- **Hostname and domain configuration**  
+- **gpupdate /force** for policy refresh  
+- **Event Viewer** (optional troubleshooting)
+
+### Documentation & Workflow
+- **GitHub** – Project hosting and version control  
+- **Markdown** – Clean, readable documentation  
+- **Screenshots** – Visual validation of each step  
+
 ## 🛠️ Skills Demonstrated
 - Active Directory Domain Services (AD DS)
 - Organizational Unit (OU) design
