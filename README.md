@@ -145,6 +145,7 @@ This section demonstrates the enforcement of least‑privilege access for the He
 This screenshot shows the Help Desk user attempting an action outside their delegated permissions—such as creating, deleting, or modifying protected objects—and receiving an “Access Denied” message. This confirms that the Help Desk role is correctly restricted and cannot perform administrative tasks reserved for higher‑privilege roles. The denied action validates that least‑privilege enforcement is functioning exactly as intended.
 ### [11 Help Desk Testing](11%20Help%20Desk%20Testing/)
 Validation of least‑privilege enforcement for the Help Desk role.
+
 ---
 
 ## 🔐 RBAC Validation Summary  
