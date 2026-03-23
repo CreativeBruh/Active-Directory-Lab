@@ -52,9 +52,8 @@ Descriptions will be added below as the documentation is completed.
 ## 01 – Server Installation
 
 This section documents the installation of Windows Server 2022, which serves as the foundation for the entire Active Directory environment. The goal of this step is to deploy a clean, stable server instance that will later be promoted to a Domain Controller. This includes selecting the correct edition, configuring initial settings, and preparing the system for domain services.
-### [01 – Server Installation](01%20-%20Server%20Installation/)
-Documentation for the initial installation of Windows Server 2022.
-
+### [01 Server Installation](01%20Server%20Installation/)
+Initial installation of Windows Server 2022.
 
 ### Screenshot 01A – server rename
 This screenshot shows the successful installation of Windows Server 2022. At this stage, the operating system is fully deployed and ready for post‑installation configuration, including setting the administrator password, applying updates, and preparing the server for static IP assignment and AD DS installation.
