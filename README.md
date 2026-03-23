@@ -196,24 +196,23 @@ Validation of least‑privilege enforcement for the Help Desk role.
 
 ---
 
-## 🔐 RBAC Validation Summary  
-A Help Desk role was created and tested to ensure proper least-privilege access.  
-The Help Desk user can:
+## 🔐 RBAC Validation Summary
+A Help Desk role was created and tested to ensure proper least‑privilege access.
 
+### Allowed Actions
 ✔ View user properties  
 ✔ Modify group membership  
 ✔ Reset passwords (if delegated)  
 ✔ Unlock accounts (if delegated)  
 
-The Help Desk user cannot:
-
+### Denied Actions
 ❌ Create users  
 ❌ Delete users  
 ❌ Modify OUs  
 ❌ Modify GPOs  
-❌ Perform domain-level administrative tasks  
+❌ Perform domain‑level administrative tasks  
 
-This demonstrates a secure and realistic RBAC implementation.
+These results demonstrate a secure and realistic RBAC implementation.
 
 ---
 
