@@ -64,6 +64,8 @@ This section covers the initial post‑installation configuration of the server,
 
 ### Screenshot 02A – Static IP Configuration
 This screenshot shows the server’s network adapter being configured with a static IPv4 address. The IP address, subnet mask, gateway, and DNS settings are manually assigned to ensure consistent network identity. Setting the preferred DNS server to the local machine prepares the server for hosting DNS once AD DS is installed. This configuration establishes the foundation for stable domain communication.
+### [02 Static Configuration](02%20Static%20Configuration/)
+Static IPv4 configuration for the domain controller.
 
 ## 03 – AD DS Installation
 
@@ -71,6 +73,8 @@ In this step, the Active Directory Domain Services (AD DS) role is installed on 
 
 ### Screenshot 03A – AD DS Role Installation in Progress
 This screenshot shows the Add Roles and Features Wizard actively installing the AD DS role and its associated management tools on the server LAB-DC01. Components such as Group Policy Management, the Active Directory Administrative Center, AD DS Snap‑Ins, and the AD PowerShell module are being deployed. This progress screen confirms that the server is receiving all required directory service components. Once the installation completes, Server Manager will display the “Promote this server to a domain controller” notification, signaling readiness for domain controller promotion.
+### [03 AD Installation](03%20AD%20Installation/)
+Installation of the Active Directory Domain Services role.
 
 ## 04 – Domain Controller Promotion
 
@@ -78,6 +82,8 @@ With the AD DS role installed, the next step is to promote the server to a Domai
 
 ### Screenshot 04A – Domain Controller Promotion Options
 This screenshot shows the Domain Controller Options page during the promotion process. Here, key configuration choices are made, including selecting the forest and domain functional levels, enabling DNS server integration, and specifying the Directory Services Restore Mode (DSRM) password. These settings determine the capabilities and security posture of the domain. Completing this step prepares the server to finalize promotion and reboot as the first Domain Controller in the environment.
+### [04 Domain Controller Promotion](04%20Domain%20Controller%20Promotion/)
+Promotion of the server to a Domain Controller.
 
 ## 05 – Domain Join
 
@@ -88,6 +94,8 @@ This screenshot captures the confirmation dialog indicating a successful join to
 
 ### Screenshot 05B – Domain Login Screen
 This screenshot shows the Windows login screen after reboot, now displaying the option to sign in to the **SOLORZANO** domain. This confirms that the workstation recognizes the domain and is ready for domain-based authentication. At this stage, domain users can log in, and the machine is fully integrated into the Active Directory environment.
+### [05 Domain Join](05%20Domain%20Join/)
+Joining the Windows 10 client to the domain and verifying login.
 
 ## 06 – Domain Users
 
@@ -95,6 +103,8 @@ This section documents the creation of the first domain user account within Acti
 
 ### Screenshot 06A – First Domain User Created
 This screenshot shows the newly created domain user within the Active Directory Users and Computers (ADUC) console. The account appears in the appropriate container, confirming that the user object was successfully created and registered in the domain. This step establishes the foundation for identity management, enabling domain logins, group membership assignments, and future RBAC testing.
+### [06 Domain Users](06%20Domain%20Users/)
+Creation of the first domain user account.
 
 ## 07 – OU Structure
 
@@ -102,6 +112,8 @@ This section documents the creation of a clean and scalable Organizational Unit 
 
 ### Screenshot 07A – OU Structure Created
 This screenshot shows the newly created OU structure within the Active Directory Users and Computers (ADUC) console. Custom OUs such as *Admins*, *Users*, *Computers*, *Groups*, and *Service Accounts* are organized under the domain root. This layout separates administrative objects from standard users and machines, enabling targeted Group Policy application and proper delegation of permissions. The structure reflects real‑world best practices for domain organization.
+### [07 OU Structure](07%20OU%20Structure/)
+Creation of a clean and scalable Organizational Unit structure.
 
 ## 08 – Object Placement
 
@@ -113,12 +125,17 @@ This screenshot shows the domain‑joined workstation moved from the default **C
 ### Screenshot 08B – User in Users OU
 This screenshot displays the first domain user placed inside the **02 – Users** OU. Moving the account out of the built‑in **Users** container enables cleaner administration, targeted policy assignment, and future delegation of permissions. This placement reflects real‑world identity management practices.
 
+### [08 Object Placement](08%20Object%20Placement/)
+Placing users and computers into their appropriate OUs.
+
 ## 09 – Security Groups
 
 Security groups are essential for managing permissions, access control, and role‑based administration within Active Directory. Instead of assigning permissions directly to individual users, groups allow scalable, maintainable, and secure access management. Creating a dedicated group also prepares the environment for future RBAC testing and delegated administration.
 
 ### Screenshot 09A – First Security Group Created
 This screenshot shows the creation of the first security group within the **04 – Groups** OU. The group is configured as a **Global Security Group**, which is the standard scope for assigning permissions to users within the same domain. This group will later be used to manage access, apply role‑based permissions, and support Help Desk RBAC testing. Its creation marks the beginning of structured, principle‑driven access control in the domain.
+### [09 Security Groups](09%20Security%20Groups/)
+Creation of the first security group for RBAC.
 
 ## 10 – GPO: Desktop Wallpaper
 
@@ -129,6 +146,8 @@ This screenshot shows the configuration of the Desktop Wallpaper policy within t
 
 ### Screenshot 10B – Wallpaper Applied on Domain Workstation
 This screenshot confirms that the GPO successfully applied to the domain‑joined workstation. The custom wallpaper is visible on the user’s desktop after running `gpupdate /force` and logging back in. This validates that the GPO is correctly linked, the user is in the proper OU, and the policy is being processed through User Configuration as intended.
+### [10 GPO Desktop Wallpaper](10%20GPO%20Desktop%20Wallpaper/)
+Configuration and validation of a desktop wallpaper GPO.
 
 ## 11 – Help Desk Denied Action
 
@@ -136,6 +155,8 @@ This section demonstrates the enforcement of least‑privilege access for the He
 
 ### Screenshot 11A – Help Desk Denied Action
 This screenshot shows the Help Desk user attempting an action outside their delegated permissions—such as creating, deleting, or modifying protected objects—and receiving an “Access Denied” message. This confirms that the Help Desk role is correctly restricted and cannot perform administrative tasks reserved for higher‑privilege roles. The denied action validates that least‑privilege enforcement is functioning exactly as intended.
+### [11 Help Desk Testing](11%20Help%20Desk%20Testing/)
+Validation of least‑privilege enforcement for the Help Desk role.
 ---
 
 ## 🔐 RBAC Validation Summary  
