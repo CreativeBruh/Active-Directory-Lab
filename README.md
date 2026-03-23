@@ -40,6 +40,28 @@ It includes domain creation, organizational structure, user and group management
 - Least privilege enforcement
 - Documentation and troubleshooting
 
+## 🖥️ Lab Diagram
++---------------------------+
+|     Windows Server 2022   |
+|   Domain Controller (DC)  |
+|---------------------------|
+| - AD DS                   |
+| - DNS                     |
+| - GPMC                    |
+| - OU Structure            |
++---------------------------+
+              |
+              |  Domain: jose-lab.local
+              |
++---------------------------+
+|     Windows 10 Client     |
+|   Domain-Joined Workstation|
+|---------------------------|
+| - User Login              |
+| - GPO Applied             |
+| - Help Desk Testing       |
++---------------------------+
+
 ## 🧱 Lab Structure
 The project is organized into the following sections:
 
