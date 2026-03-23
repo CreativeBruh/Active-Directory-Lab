@@ -1,50 +1,40 @@
-# Active-Directory-Lab
+Active-Directory-Lab
 A hands‑on Active Directory lab demonstrating domain setup, OU design, user/group management, delegated permissions, and Help Desk RBAC validation.
 
----
-
-## 📌 Overview  
-This project simulates a realistic enterprise Active Directory environment.  
+📌 Overview
+This project simulates a realistic enterprise Active Directory environment.
 It includes domain creation, organizational structure, user and group management, delegated permissions, and least-privilege RBAC testing.
 
----
-
-## 🛠️ Skills Demonstrated  
-- Active Directory Domain Services (AD DS)  
-- Organizational Unit (OU) design  
-- User and group management  
-- Delegated permissions  
-- Group Policy  
-- RBAC (Role-Based Access Control)  
-- Least privilege enforcement  
-- Documentation and troubleshooting  
-
----
-
-## 🧱 Lab Structure  
+🛠️ Skills Demonstrated
+Active Directory Domain Services (AD DS)
+Organizational Unit (OU) design
+User and group management
+Delegated permissions
+Group Policy
+RBAC (Role-Based Access Control)
+Least privilege enforcement
+Documentation and troubleshooting
+🧱 Lab Structure
 The project is organized into the following sections:
 
-1. **Server Installation**  
-2. **Server Configuration**  
-3. **Static IP Setup**  
-4. **AD DS Installation**  
-5. **Domain Controller Promotion**  
-6. **OU Structure**  
-7. **User Creation**  
-8. **Group Creation**  
-9. **Delegation**  
-10. **Logon Rights Policy**  
-11. **Help Desk Login**  
-12. **Allowed Actions**  
-13. **Denied Actions**  
-14. **RBAC Summary**
-
+Server Installation
+Server Configuration
+Static IP Setup
+AD DS Installation
+Domain Controller Promotion
+OU Structure
+User Creation
+Group Creation
+Delegation
+Logon Rights Policy
+Help Desk Login
+Allowed Actions
+Denied Actions
+RBAC Summary
 Each section includes screenshots and explanations.
 
----
-
-## 📸 Screenshots & Documentation  
-Screenshots for each step are stored in their corresponding folders.  
+📸 Screenshots & Documentation
+Screenshots for each step are stored in their corresponding folders.
 Descriptions will be added below as the documentation is completed.
 
 ---
