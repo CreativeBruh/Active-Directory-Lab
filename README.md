@@ -4,6 +4,7 @@ A hands‑on Active Directory lab demonstrating domain setup, OU design, user/gr
 ## 📌 Overview
 This project simulates a realistic enterprise Active Directory environment.  
 It includes domain creation, organizational structure, user and group management, delegated permissions, Group Policy configuration, and least‑privilege RBAC testing.
+This lab mirrors real-world identity management workflows used by IT support, system administrators, and security teams.
 
 ## 🧰 Tools Used
 
@@ -28,7 +29,7 @@ It includes domain creation, organizational structure, user and group management
 ### Documentation & Workflow
 - **GitHub** – Project hosting and version control  
 - **Markdown** – Clean, readable documentation  
-- **Screenshots** – Visual validation of each step  
+- **Screenshots** – Visual validation of each step    
 
 ## 🛠️ Skills Demonstrated
 - Active Directory Domain Services (AD DS)
@@ -90,7 +91,7 @@ This section documents the installation of Windows Server 2022, which serves as 
 ### [01 Server Installation](01%20Server%20Installation/)
 Initial installation of Windows Server 2022.
 
-### Screenshot 01A – server rename
+### Screenshot 01A – Server Rename
 This screenshot shows the successful installation of Windows Server 2022. At this stage, the operating system is fully deployed and ready for post‑installation configuration, including setting the administrator password, applying updates, and preparing the server for static IP assignment and AD DS installation.
 
 ## 02 – Static Configuration
