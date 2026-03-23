@@ -1,41 +1,39 @@
-Active-Directory-Lab
+# Active-Directory-Lab
 A hands‑on Active Directory lab demonstrating domain setup, OU design, user/group management, delegated permissions, and Help Desk RBAC validation.
 
-📌 Overview
-This project simulates a realistic enterprise Active Directory environment.
-It includes domain creation, organizational structure, user and group management, delegated permissions, and least-privilege RBAC testing.
+## 📌 Overview
+This project simulates a realistic enterprise Active Directory environment.  
+It includes domain creation, organizational structure, user and group management, delegated permissions, Group Policy configuration, and least‑privilege RBAC testing.
 
-🛠️ Skills Demonstrated
-Active Directory Domain Services (AD DS)
-Organizational Unit (OU) design
-User and group management
-Delegated permissions
-Group Policy
-RBAC (Role-Based Access Control)
-Least privilege enforcement
-Documentation and troubleshooting
-🧱 Lab Structure
+## 🛠️ Skills Demonstrated
+- Active Directory Domain Services (AD DS)
+- Organizational Unit (OU) design
+- User and group management
+- Delegated permissions
+- Group Policy
+- RBAC (Role-Based Access Control)
+- Least privilege enforcement
+- Documentation and troubleshooting
+
+## 🧱 Lab Structure
 The project is organized into the following sections:
 
-Server Installation
-Server Configuration
-Static IP Setup
-AD DS Installation
-Domain Controller Promotion
-OU Structure
-User Creation
-Group Creation
-Delegation
-Logon Rights Policy
-Help Desk Login
-Allowed Actions
-Denied Actions
-RBAC Summary
+1. Server Installation  
+2. Static Configuration  
+3. AD Installation  
+4. Domain Controller Promotion  
+5. Domain Join  
+6. Domain Users  
+7. OU Structure  
+8. Object Placement  
+9. Security Groups  
+10. GPO Desktop Wallpaper  
+11. Help Desk Testing  
+
 Each section includes screenshots and explanations.
 
-📸 Screenshots & Documentation
+## 📸 Screenshots & Documentation
 Screenshots for each step are stored in their corresponding folders.
-Descriptions will be added below as the documentation is completed.
 
 ---
 
