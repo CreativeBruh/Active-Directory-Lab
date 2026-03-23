@@ -51,7 +51,7 @@ It includes domain creation, organizational structure, user and group management
 | - OU Structure            |
 +---------------------------+
               |
-              |  Domain: jose-lab.local
+              |  Domain: solorzano.local
               |
 +---------------------------+
 |     Windows 10 Client     |
